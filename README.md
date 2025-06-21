@@ -1,24 +1,22 @@
-# Java API Basics – Kullanıcı Yönetimi
+# Java API Basics – User Management
 
-Bu proje, Java'da basit bir kullanıcı yönetimi sistemi simüle eder. Amacı, yeni başlayan bir geliştirici olarak temel OOP kavramlarını ve API benzeri bir yapı kurmayı göstermektir.
+This project simulates a basic user management system using pure Java.  
+It is designed to demonstrate fundamental OOP concepts and a simple layered architecture, similar to a backend API structure.
 
-## Özellikler
-- Kullanıcı ekleme
-- Tüm kullanıcıları listeleme
-- Kullanıcı silme (ID ile)
-- Kullanıcı güncelleme
+## 📌 Features
+- Add a user
+- List all users
+- Delete user by ID
+- Update user information
 
-## Kullanılanlar
+## 🛠 Technologies Used
 - Java 17+
-- OOP: Sınıflar, methodlar, veri yapıları
-- Katmanlı mimari: Model – Service – Controller
+- Object-Oriented Programming (OOP)
+- Layered architecture: Model – Service – Controller
 
-## Başlatma
+## 🚀 How to Run
 
-```bash
-javac src/**/*.java
-java src/Main
-```
-
-## Notlar
-Bu proje, Spring Boot veya framework içermemektedir. Amaç sade Java ile temel bir backend yaklaşımı kazandırmaktır.
+1. Open the terminal and navigate to the project directory  
+2. Compile all Java files:
+   ```bash
+   javac src/**/*.java
